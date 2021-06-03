@@ -1,0 +1,10 @@
+*.pyc
+.idea
+.idea/
+venv
+data
+figures
+logs
+__pycache__/
+.cache
+.coverage
