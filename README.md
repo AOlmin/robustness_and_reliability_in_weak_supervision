@@ -2,7 +2,8 @@
 
 Requirements can be installed using e.g. pip: python -m pip install -r requirements.txt
 
-##For simple noise experiment:
+## For simple noise experiment:
+
 The data used in the paper can be found under “experiments/toy_example/data”. 
 
 Experiment without label noise:
@@ -11,7 +12,7 @@ Run python -m experiments.toy_example.toy_experiment --model_dir experiments/toy
 Experiment with label flip probability 0.2:
 Run python -m experiments.toy_example.toy_experiment --model_dir experiments/toy_example/models --data_dir experiments/toy_example/data --early_stopping --label_noise 0.2
 
-##For overfitting experiments:
+## For overfitting experiments:
 
 The noisy targets used in the experiments can be found under experiments/overfitting_experiment/data/MNIST/targets. The shuffle order used for splitting the MNIST train data set into train and validation is saved in experiments/overfitting_experiment/data/training_indices.npy. Note that both files are dependent on the order in which the data is loaded. 
 
