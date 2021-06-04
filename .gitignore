@@ -6,7 +6,8 @@ __pycache__/
 .cache
 .coverage
 logs
-models
 figures
+experiments/toy_example/models
 experiments/overfitting_experiment/data/MNIST/raw
 experiments/overfitting_experiment/data/MNIST/processed
+experiments/overfitting_experiment/models
