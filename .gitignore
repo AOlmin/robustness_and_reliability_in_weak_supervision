@@ -1,0 +1,12 @@
+*.pyc
+.idea
+.idea/
+venv
+__pycache__/
+.cache
+.coverage
+logs
+models
+figures
+experiments/overfitting_experiment/data/MNIST/raw
+experiments/overfitting_experiment/data/MNIST/processed
