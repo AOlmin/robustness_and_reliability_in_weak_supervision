@@ -85,10 +85,10 @@ def plot_data(data, ax):
     ax.scatter(inputs[label_1_inds, 0], inputs[label_1_inds, 1], c="#FDE725FF", s=3)
     ax.scatter(inputs[label_2_inds, 0], inputs[label_2_inds, 1], c="#440154FF",  s=3)
 
-    ax.set_xlim([-1.525, 1.475])
-    ax.set_ylim([-1.525, 1.475])
+    ax.set_xlim([-1.5, 1.5])
+    ax.set_ylim([-1.5, 1.5])
 
-    ax.legend(["Class 0", "Class 1"])
+    ax.legend(["Class 1", "Class 2"])
 
 
 def distribution_plot(model, fig, ax):
