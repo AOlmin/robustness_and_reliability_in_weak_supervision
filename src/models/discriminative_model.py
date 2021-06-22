@@ -36,8 +36,6 @@ class DiscriminativeModel(DiscriminativeParentModel):
         # This is a bit unnecessary, but required for loss function
         return torch.argmax(targets, dim=-1)
 
-    def _calculate_temperature_scaling_loss(self, outputs, targets):
-        return torch.nn.CrossEntropyLoss()(outputs, targets)
 
 
 
